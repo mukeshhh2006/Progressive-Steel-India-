@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Progressive Steel (India)</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Progressive Steel (India)</h1>
+    <nav>
+      <a href="#products">Products</a>
+      <a href="#enquiry">Enquiry</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" data-aos="fade-up">
+    <h2>We Grow Together</h2>
+    <p>18+ years of trust in stainless and carbon steel solutions</p>
+  </section>
+
+  <section id="products">
+    <h2 data-aos="fade-right">Our Product Categories</h2>
+    <div class="grid">
+      <div class="card" data-aos="zoom-in">
+        <img src="images/stainless_steel.jpg" alt="Stainless Steel" />
+        <h3>Stainless Steel</h3>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="images/pipes_&_rods.jpg" alt="Pipes and Rods" />
+        <h3>Pipes & Rods</h3>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="images/sheets_&_plates.jpg" alt="Sheets and Plates" />
+        <h3>Sheets & Plates</h3>
+      </div>
+      <div class="card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="images/fittings.jpg" alt="Fittings" />
+        <h3>Fittings</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="enquiry" data-aos="fade-up">
+    <h2>Enquiry Form</h2>
+    <form action="https://formsubmit.co/progressivesi@yahoo.in" method="POST" class="enquiry-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="phone" placeholder="Phone Number" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Submit Enquiry</button>
+    </form>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Us</h2>
+    <p>Phone: +91 9119183812 / 9969546885</p>
+    <p>Email: progressivesi@yahoo.in</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Progressive Steel (India)</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
